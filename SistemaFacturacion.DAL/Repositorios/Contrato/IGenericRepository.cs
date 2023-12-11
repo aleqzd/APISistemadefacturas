@@ -13,6 +13,6 @@ namespace SistemaFacturacion.DAL.Repositorios.Contrato
         Task<TModel> Crear(TModel modelo);
         Task<bool> Editar(TModel modelo);
         Task<bool> Eliminar(TModel modelo);
-        Task<IQueryable<TModel>> Consultar((Expression<Func<TModel, bool>> filtro =  null);
+        Task<IQueryable<TModel>> Consultar(Expression<Func<TModel, bool>>? filtro = null);
     }
 }
