@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaFacturacion.DAL\SistemaFacturacion.DAL.csproj" />
+    <ProjectReference Include="..\SistemaFacturacion.DTO\SistemaFacturacion.DTO.csproj" />
+    <ProjectReference Include="..\SistemaFacturacion.Model\SistemaFacturacion.Model.csproj" />
+    <ProjectReference Include="..\SistemaFacturacion.Utility\SistemaFacturacion.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
